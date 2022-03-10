@@ -1,4 +1,4 @@
-FROM quay.io/centos/centos:stream9
+FROM quay.io/centos/centos:stream8
 
 MAINTAINER Alfredo Moralejo <amoralej@redhat.com>
 
