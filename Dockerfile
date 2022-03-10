@@ -2,7 +2,7 @@ FROM quay.io/centos/centos:stream9
 
 MAINTAINER Alfredo Moralejo <amoralej@redhat.com>
 
-RUN dnf install -y nginx; dnf clean all
+RUN dnf install -y nginx
 
 COPY 2048 /usr/share/nginx/html
 
